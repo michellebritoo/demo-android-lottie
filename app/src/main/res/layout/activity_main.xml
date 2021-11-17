@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffb326"
+    android:background="#f8d152"
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,5 +18,18 @@
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_url="https://assets1.lottiefiles.com/private_files/lf30_opufui0k.json" />
+
+    <Button
+        android:id="@+id/BtnTransform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#337689"
+        android:padding="8dp"
+        android:text="Transform"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
